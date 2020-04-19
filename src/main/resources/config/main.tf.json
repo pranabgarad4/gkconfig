@@ -19,7 +19,7 @@
               "key": [
                 {
                   "path": "service/app/k1",
-                  "value": 5
+                  "value": 6
                 }
               ],
               "token": "abcd"
