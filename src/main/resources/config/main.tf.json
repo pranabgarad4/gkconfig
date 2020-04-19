@@ -19,16 +19,16 @@
               "key": [
                 {
                   "path": "service/app/k1",
-                  "value": 4
+                  "value": 5
                 },
 		,
                 {
                   "path": "service/app/k2",
-                  "value": "1235"
+                  "value": 25
                 },
                 {
                   "path": "service/app/k3",
-                  "value": "1236"
+                  "value": 35
                 }
               ],
               "token": "abcd"
