@@ -1,0 +1,32 @@
+{
+  "provider": [
+    {
+      "consul": [
+        {
+          "address": "pranabmac.gateway.local:8500",
+          "datacenter": "dc1"
+        }
+      ]
+    }
+  ],
+  "resource": [
+    {
+      "consul_keys": [
+        {
+          "app": [
+            {
+              "datacenter": "dc1",
+              "key": [
+                {
+                  "path": "service/app/k1",
+                  "value": 5
+                }
+              ],
+              "token": "abcd"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
