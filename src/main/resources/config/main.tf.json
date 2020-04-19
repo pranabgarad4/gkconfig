@@ -21,7 +21,6 @@
                   "path": "service/app/k1",
                   "value": 7
                 },
-		,
                 {
                   "path": "service/app/k2",
                   "value": 25
