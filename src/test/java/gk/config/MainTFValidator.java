@@ -14,10 +14,11 @@ public class MainTFValidator {
 
     public MainTFValidator() {
         kv.putIfAbsent("service/app/k1", Pattern.compile("([5-9]|10)"));
+        kv.putIfAbsent("service/app/k2", Pattern.compile("(2[5-9]|30)"));
+        kv.putIfAbsent("service/app/k3", Pattern.compile("(3[5-9]|40)"));
     }
 
     public void validate(List<Key> keys) {
-
         System.out.println(" validating ... ");
         for (Key k : keys) {
             Assert.assertTrue("Invalid key", kv.containsKey(k.getPath()));

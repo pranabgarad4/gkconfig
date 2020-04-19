@@ -20,6 +20,15 @@
                 {
                   "path": "service/app/k1",
                   "value": 4
+                },
+		,
+                {
+                  "path": "service/app/k2",
+                  "value": "1235"
+                },
+                {
+                  "path": "service/app/k3",
+                  "value": "1236"
                 }
               ],
               "token": "abcd"
