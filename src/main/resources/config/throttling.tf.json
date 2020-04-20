@@ -1,0 +1,32 @@
+{
+  "provider": [
+    {
+      "consul": [
+        {
+          "address": "pranabmac.gateway.local:8500",
+          "datacenter": "dc1"
+        }
+      ]
+    }
+  ],
+  "resource": [
+    {
+      "consul_keys": [
+        {
+          "app": [
+            {
+              "datacenter": "dc1",
+              "key": [
+                {
+                  "path": "gk/throttling",
+                  "value": "{maxThrottling: 20, minThrottling: 5, minQueueDelay: 20, normalQueueDelay: 100, queueSize: 10}"
+                }
+              ],
+              "token": "abcd"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
