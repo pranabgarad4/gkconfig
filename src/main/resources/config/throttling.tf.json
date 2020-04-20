@@ -13,7 +13,7 @@
     {
       "consul_keys": [
         {
-          "app": [
+          "throttling": [
             {
               "datacenter": "dc1",
               "key": [
