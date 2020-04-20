@@ -31,7 +31,7 @@
                 },
                 {
                   "path": "gk/throttling",
-                  "value": "{maxThrottling: 20, minThrottling: 5, minQueueDelay: 20, normalQueueDelay: 100, queueSize: 10}"
+                  "value": "{\"maxThrottling\": 20, \"minThrottling\": 5, \"minQueueDelay\": 20, \"normalQueueDelay\": 100, \"queueSize\": 10}"
                 }
               ],
               "token": "abcd"
